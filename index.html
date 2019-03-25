@@ -20,8 +20,9 @@
 
       <div class="fund-notes">
           Fund: <a href="https://www.sbimf.com/en-us/other-schemes/sbi-nifty-index-fund">SBI Nifty Index Fund</a><br>
-          Purchase date: 25/03/2019<br>
-          Purchase NAV: 97.30
+          Purchase date: 25/03/2019 |
+          Purchase NAV: 97.30 |
+          Purchase value: 5000
       </div>
 
     </div> <!-- Main container-->
@@ -53,11 +54,11 @@
         },
         vAxis: {
           title: 'Price'
-        }
+        },
+        title: 'NAV of SBI Nifty Index Fund'
       };
 
       var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-
       chart.draw(data, options);
     }
   </script>
