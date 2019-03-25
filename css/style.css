@@ -14,3 +14,26 @@ body{
   width: 80%;
   margin: auto;
 }
+
+.birthday-message{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #fff;
+  text-transform:uppercase;
+  margin-top: 30VH;
+}
+
+.fund-notes{
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+}
+
+.fund-notes a{
+  color: inherit;
+}
+
+#chart-div{
+  
+}
