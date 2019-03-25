@@ -1,3 +1,16 @@
-html, body {
+html {
   height: 100%;
+}
+
+body{
+  /* background-color: #232f3e;*/
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-content{
+  width: 80%;
+  margin: auto;
 }
